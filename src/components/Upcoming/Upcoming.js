@@ -15,7 +15,7 @@ const Upcoming = () =>
         <div className="container mt-5">
             <div className="row row-cols-1 row-cols-md-3 g-4">
                 {
-                    upcomingMovies.map(movie => <UpcomingInfo key={upcomingMovies.id} movie={movie}></UpcomingInfo>)
+                    upcomingMovies.map(movie => <UpcomingInfo key={movie.id} movie={movie}></UpcomingInfo>)
                 }
             </div>
         </div>
